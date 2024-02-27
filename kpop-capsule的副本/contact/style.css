@@ -1,0 +1,129 @@
+*{
+    margin:0;
+    padding:0;
+    }
+  /* 蓝条*/
+  .rectangle {
+      width: 100%;
+      height: 20px; 
+      background-color: #1a2665; 
+    }
+  
+  /* 标题*/
+  /* 标题 */
+  header {
+    grid-column: span 2;
+    text-align: start;
+    border-bottom: 3px solid black;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr 1fr; 
+    align-items: flex-end; 
+    padding-bottom: 10px;
+  
+    h1 {
+      grid-column: span 2; 
+      font-size: 2em;
+      margin-bottom: 0.25rem;
+      margin-left: 5%;
+      font-family: 'Hanken Grotesk', san-serif;
+      display: inline-block; 
+      vertical-align: baseline; 
+    }
+  
+    .info {
+        grid-column: 3/ 4; 
+        font-size: 1.5em; 
+        text-align: bottom; 
+        margin-top: 500px; 
+        display: inline-block; 
+        vertical-align: baseline; 
+      }
+      }
+    
+    
+      #info a {
+        color: black; 
+        text-decoration: none; 
+      }
+    
+      #info a:hover {
+        text-decoration: underline;
+      }
+    
+      .contact {
+        grid-column: 3/ 4; 
+        font-size: 1.5em; 
+        text-align: left;
+        margin-top: 100px; 
+      }
+    
+      #contact a {
+        color:black; 
+        text-decoration: none; 
+      }
+    
+      #contact a:hover {
+        text-decoration: underline;
+      }
+    
+
+    .container {
+        display: flex;
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    
+    .contact {
+        flex: 1;
+    }
+    
+    .contact-info {
+        text-align: center;
+    }
+    
+    .contact-info h1 {
+        font-size: 2em;
+        margin-bottom: 10px;
+    }
+    
+    .contact-info p {
+        font-size: 1.2em;
+        margin-bottom: 20px;
+    }
+    
+    .contact-info ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    .contact-info li {
+        margin-bottom: 10px;
+    }
+    
+    .contact-info li strong {
+        font-weight: bold;
+    }
+    
+    .contact-info a {
+        color: black;
+        text-decoration: none;
+    }
+    
+    .contact-info a:hover {
+        text-decoration: underline;
+    }
+    
+    .image {
+        margin-left: 80px;
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .image img {
+        max-width: 100%;
+        height: auto;
+    }
+    
